@@ -1,31 +1,33 @@
 <<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Collabora
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Felizali
+    given-names: Bruna
+  - family-names: Diniz
+    given-names: Felipe
+  - family-names: Galvão
+    given-names: Karinne
+  - family-names: Saturnino
+    given-names: Mateus
+  - family-names: Messias
+    given-names: Paulo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Carneiro
+    given-names: Rommel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Oliveira
+    given-names: João Carlos
 keywords:
-  - 
-  - 
+  - Estudar
+  - Grupo
+  - Estudante
+  - Materia
+  - Chat
+  - Aula
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
