@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Pop-up</title>
+    <link href='https://fonts.googleapis.com/css?family=KoHo' rel='stylesheet'>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            font-family: KoHo; 
+            background-color: #9517E1;
+            color: #F3A606;
+            border-color: #9517E1;
+            border-radius: 16px;
+            
+            padding: 10px 20px;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="openCalculator()">Calculadora</button>
+
+    <script>
+        function openCalculator() {
+            window.open('calculator.html', 'Calculadora', 'width=400,height=550');
+        }
+    </script>
+</body>
+</html>
