@@ -1,0 +1,127 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: #9517E1;
+    font-family: 'inter';
+}
+
+body{
+    background-color: #401E88;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+header .logo a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: xx-large; 
+    font-family: 'KoHo'; 
+    color: #f3a60f;
+}
+
+header .menu ul{
+    list-style-type: none;
+}
+
+header .menu ul li{
+    display: inline-block;
+    margin-right: 60px;
+    font-weight: bold;
+    font-size: 18   px;
+}
+
+header .menu ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: #401E88;
+    display: inline;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.container {
+    text-align: center; /* Centraliza as divs no contêiner */
+}
+
+.container {
+    display: flex; /* Usa Flexbox para layout */
+    justify-content: space-between; /* Espaça uniformemente as divs */
+    gap: 10px; /* Espaço entre as divs */
+}
+
+.box {
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin: auto 0 auto 0; 
+}
+
+.login a{
+    text-decoration: none;
+    background-color: #f3a60f;
+    color: #401E88;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 16px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.login a:active {
+    transform: scale(0.95);
+}
+
+.box-group{ 
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-container{
+    width: auto;
+    height: auto;
+    background-color: #9517E1;
+    text-align: center; /* Centraliza o conteúdo dentro de cada box-container */
+    padding: 5px 0 20px 0;
+    margin-top: 10px;
+}   
+
+h1, p, button {
+    text-align: center; /* Centraliza texto e botão dentro de .content */
+    margin: 0;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #401E88;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #f3a60f;
+}
+
+h1{
+    color: #f3a60f;
+    font-family: 'KoHo';
+}
+p{
+    color: white;
+    font-family: 'Inter';
+}
+
