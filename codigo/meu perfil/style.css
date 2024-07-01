@@ -1,3 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4b238f;
+    color: #e9a226;
+}
+
+h1 {
+    margin: 60px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 50px;
+    background-color: #e9a226;
+    color: #4b238f;
+    text-align: center;
+    width: 500px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.card h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.5s background;
+    background-color: #e9a226;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #4b238f;
+    background-color: #e9a226;
+    height: 120px;
+    font-size: 50px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px;
+    width: 450px;
+    height: 180px;
+    color: black;
+}
+
+.search-bar input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image-container img {
+    width: 400px;
+    height: 290px;
+    margin: 50px;
+    border-radius: 250px;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -77,28 +172,6 @@ header .menu ul li a{
     cursor: pointer;
 }
 
-.login a:active {
-    transform: scale(0.95);
-}
-
-.box-group{ 
-    margin: 20px;
-    padding: 20px;
-}
-
-.box-container{
-    width: auto;
-    height: auto;
-    background-color: #9517E1;
-    text-align: center; /* Centraliza o conteúdo dentro de cada box-container */
-    padding: 5px 0 20px 0;
-    margin-top: 10px;
-}   
-
-h1, p, button {
-    text-align: center; /* Centraliza texto e botão dentro de .content */
-    margin: 0;
-}
 
 .button {
     padding: 10px 20px;
@@ -115,12 +188,4 @@ h1, p, button {
     background-color: #f3a60f;
 }
 
-h1{
-    color: #f3a60f;
-    font-family: 'KoHo';
-}
-p{
-    color: white;
-    font-family: 'Inter';
-}
 

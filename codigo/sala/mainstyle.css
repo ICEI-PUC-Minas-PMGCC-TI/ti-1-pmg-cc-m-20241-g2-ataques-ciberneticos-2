@@ -124,3 +124,66 @@ p{
     font-family: 'Inter';
 }
 
+@import url('https://fonts.googleapis.com/css?family=Koho');
+
+body {
+    font-family: 'Koho', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.chat-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #9517E1;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #666;
+    font-family: 'Koho', sans-serif;
+}
+
+.chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    border-bottom: 1px solid #666;
+}
+
+.chat-input {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #666;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: #f7f7f7;
+    font-family: 'Koho', sans-serif;
+}
+
+.chat-input button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3a60f;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: 'Koho', sans-serif;
+}
+
+.chat-input button:hover {
+    background-color: #ffd700;
+}

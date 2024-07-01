@@ -56,3 +56,40 @@ function saveUser(user) {
     users.push(user);
     localStorage.setItem('users', JSON.stringify(users));
 }
+
+// Mostrar modal de login
+document.getElementById('loginLink').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('loginModal').style.display = "block";
+});
+
+// Fechar modal de login
+document.getElementsByClassName('close')[0].addEventListener('click', function() {
+    document.getElementById('loginModal').style.display = "none";
+});
+
+// Fechar modal ao clicar fora dele
+window.addEventListener('click', function(event) {
+    if (event.target == document.getElementById('loginModal')) {
+        document.getElementById('loginModal').style.display = "none";
+    }
+});
+
+// Lidar com o login
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('loginEmail').value.trim();
+    const password = document.getElementById('loginSenha').value.trim();
+
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    const user = users.find(user => user.email === email && user.password === password);
+
+    if (user) {
+        alert('Login bem-sucedido!');
+        document.getElementById('loginModal').style.display = "none";
+        document.getElementById('loginForm').reset();
+    } else {
+        alert('Email ou senha incorretos.');
+    }
+});

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=KoHo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLABORA</title>
+</head>
+<body>
+    <div class="header">
+        <button id="edit-me">COLLABORA</button>
+            <div>
+            <button>SALAS</button>
+            <button id="planos">PLANOS</button>
+            <button id="minhaconta">MINHA CONTA</button>
+            <button id="faq">AJUDA</button>
+            </div>
+        <button id="loginbutton">Collabora-se</button>
+        <a href="/faq/faq2.html"></a>
+    </div>
+    <div class="intro">
+        <p>Escolha sua sala</p>
+    </div>
+    <div class="content">
+        <div class="content-box" id="sala">Ciências Humanas e suas Tecnologias.</div>
+        <div class="content-box" id="sala1">Ciênciasda Natureza e suas Tecnologias.</div>
+        <div class="content-box" id="sala2">Linguagens, Códigos e suas Tecnologias.</div>
+        <div class="content-box" id="sala3">Matemática e suas Tecnologias.</div>
+        <div class="content-box" id="sala4">Redação</div>
+    </div>
+    <div class="botao"><button id="crieumasala">Crie Uma Sala</button></div>
+    <div class="footer">
+        <p>℗ All Rights Reserved.</p>
+    </div>
+    <script>
+       const jsondata = {
+        "html": {
+          "lang": "pt",
+          "head": {
+            "links": [
+              {"href": "https://fonts.googleapis.com/css?family=KoHo", "rel": "stylesheet"},
+              {"href": "https://fonts.googleapis.com/css?family=Inter", "rel": "stylesheet"},
+              {"href": "style.css", "rel": "stylesheet", "media": "screen"}
+            ],
+            "meta": [
+              {"charset": "UTF-8"},
+              {"name": "viewport", "content": "width=device-width, initial-scale=1.0"}
+            ],
+            "title": "COLLABORA"
+          },
+          "body": {
+            "header": {
+              "button": {"id": "edit-me", "text": "COLLABORA"},
+              "buttons": [
+                {"text": "PLANOS"},
+                {"text": "MINHA CONTA"},
+                {"text": "AJUDA"},
+                {"text": "SALAS"}
+              ],
+              "loginButton": {"text": "LOGIN/SIGN IN"}
+            },
+            "intro": {"text": "Escolha sua sala"},
+            "content": {
+              "boxes": [
+                {"text": "Ciências Humanas e suas Tecnologias."},
+                {"text": "Ciênciasda Natureza e suas Tecnologias."},
+                {"text": "Linguagens, Códigos e suas Tecnologias."},
+                {"text": "Matemática e suas Tecnologias."},
+                {"text": "Redação"}
+              ]
+            },
+            "footer": {"text": "℗ All Rights Reserved."}
+          }
+        }
+      }
+    </script>
+    <script src="salsa.js"></script>
+</body>
+</html>
