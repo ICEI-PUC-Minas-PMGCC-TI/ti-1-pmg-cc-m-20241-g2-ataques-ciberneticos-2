@@ -54,17 +54,6 @@ h1 {
     background-color: #e9a226;
 }
 
-header {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    color: #4b238f;
-    background-color: #e9a226;
-    height: 120px;
-    font-size: 50px;
-}
-
 .search-bar {
     display: flex;
     flex-direction: column;
